@@ -1,0 +1,261 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "ICM7217IPI_" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 51.2038 9.1272 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "ICM7217IPI_" (id 1) (at 50.6317 6.59307 0.0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "ICM7217IPI_:21-0044B_28" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER_NAME" "Maxim" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "VENDOR" "MAXIM" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER_PART_NUMBER" "ICM7217IPI+" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "ICM7217IPI__0_0"
+      (polyline
+        (pts (xy 7.62 5.08) (xy 7.62 -38.1)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 7.62 -38.1) (xy 104.14 -38.1)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 104.14 -38.1) (xy 104.14 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 104.14 5.08) (xy 7.62 5.08)) (stroke (width 0.1524))
+      )
+      (pin passive line (at 0.0 0.0 0) (length 7.62)
+        (name "CARRY/BORROW"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -2.54 0) (length 7.62)
+        (name "*ZERO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -5.08 0) (length 7.62)
+        (name "*EQUAL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -7.62 0) (length 7.62)
+        (name "BCDI/O8S"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -10.16 0) (length 7.62)
+        (name "BCDI/O4S"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -12.7 0) (length 7.62)
+        (name "BCDI/O2S"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -15.24 0) (length 7.62)
+        (name "BCDI/O1S"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -17.78 0) (length 7.62)
+        (name "COUNTINPUT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -20.32 0) (length 7.62)
+        (name "*STORE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -22.86 0) (length 7.62)
+        (name "UP/*DOWN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -25.4 0) (length 7.62)
+        (name "LOADREGISTER/*OFF"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -27.94 0) (length 7.62)
+        (name "LOADCOUNTER/*I/*OOFF"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -30.48 0) (length 7.62)
+        (name "SCAN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 0.0 -33.02 0) (length 7.62)
+        (name "*RESET"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 111.76 -33.02 180.0) (length 7.62)
+        (name "*SEGC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 111.76 -30.48 180.0) (length 7.62)
+        (name "*SEGA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 111.76 -27.94 180.0) (length 7.62)
+        (name "*SEGD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 111.76 -25.4 180.0) (length 7.62)
+        (name "*SEGF"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "18"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 111.76 -22.86 180.0) (length 7.62)
+        (name "*SEGE"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "19"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 111.76 -20.32 180.0) (length 7.62)
+        (name "GROUND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "20"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 111.76 -17.78 180.0) (length 7.62)
+        (name "*SEGB"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "21"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 111.76 -15.24 180.0) (length 7.62)
+        (name "*SEGG"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "22"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 111.76 -12.7 180.0) (length 7.62)
+        (name "DISPLAYCONT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "23"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 111.76 -10.16 180.0) (length 7.62)
+        (name "V+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "24"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 111.76 -7.62 180.0) (length 7.62)
+        (name "D4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "25"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 111.76 -5.08 180.0) (length 7.62)
+        (name "D3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "26"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 111.76 -2.54 180.0) (length 7.62)
+        (name "D2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "27"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 111.76 0.0 180.0) (length 7.62)
+        (name "D1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "28"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

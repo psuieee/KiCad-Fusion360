@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ICM7217IPI_")(type "KiCad")(uri "${KIPRJMOD}/ImportedComponents/ICM7217IPI/ICM7217IPI_.kicad_sym")(options "")(descr ""))
+)
